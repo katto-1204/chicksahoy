@@ -14,89 +14,215 @@ const toastMessage = document.querySelector('.toast-message');
 
 // Menu items data
 const menuItems = [
+  // Sailor's Meal (Sauces)
   {
     id: 1,
+    name: 'Ahoy! — Original',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 2,
+    name: 'Konnichiwa! — Capt. Teriyaki',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 3,
+    name: 'Annyeong! 🌶 — Yang Yeom',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 4,
+    name: 'Hello! — Kentucky Gravy',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 5,
+    name: 'Howdy! 🌶 — Texas Barbeque',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 6,
+    name: 'Bonjour! — White Sauce',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+  {
+    id: 7,
+    name: 'Ni Hao! — Salted Egg',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'sailors-meals'
+  },
+
+  // Viking's Box (Sauces)
+  {
+    id: 8,
+    name: 'Ahoy! — Original',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 9,
+    name: 'Konnichiwa! — Capt. Teriyaki',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 10,
+    name: 'Annyeong! 🌶 — Yang Yeom',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 11,
+    name: 'Hello! — Kentucky Gravy',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 12,
+    name: 'Howdy! 🌶 — Texas Barbeque',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 13,
+    name: 'Bonjour! — White Sauce',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 14,
+    name: 'Ni Hao! — Salted Egg',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+  {
+    id: 15,
+    name: 'Witam! — Garlic Parmesan',
+    price: 0,
+    image: '/api/placeholder/200/200',
+    category: 'vikings-meal'
+  },
+
+  // Others (Burger and Fries)
+  {
+    id: 16,
+    name: 'Chicken Burger: Dynamite! — with special garlic sauce',
+    price: 120,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+  {
+    id: 17,
+    name: 'Chicken Burger: Dynamite Bbq!',
+    price: 130,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+  {
+    id: 18,
+    name: 'Chicken Burger: Spicy Dynamite! 🌶🌶',
+    price: 140,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+  {
+    id: 19,
+    name: 'Fries in a Cup: Cheese',
+    price: 50,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+  {
+    id: 20,
+    name: 'Fries in a Cup: Garlic Parmesan',
+    price: 60,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+  {
+    id: 21,
+    name: 'Fries in a Cup: BBQ',
+    price: 55,
+    image: '/api/placeholder/200/200',
+    category: 'extras'
+  },
+
+  // Popular Items
+  {
+    id: 22,
     name: '2 Pieces Boneless Chicken With Rice',
     price: 108,
     image: '/api/placeholder/200/200',
     category: 'popular'
   },
   {
-    id: 2,
+    id: 23,
     name: '3 Pieces Boneless Chicken With Rice',
     price: 148,
     image: '/api/placeholder/200/200',
     category: 'popular'
   },
   {
-    id: 3,
+    id: 24,
     name: '4 Pieces Boneless Chicken With Rice',
     price: 188,
     image: '/api/placeholder/200/200',
     category: 'popular'
   },
   {
-    id: 4,
+    id: 25,
     name: '5 Pieces Boneless Chicken With Rice',
     price: 228,
     image: '/api/placeholder/200/200',
     category: 'popular'
   },
   {
-    id: 5,
-    name: 'Sailor\'s Special - 3pcs + Drink',
-    price: 168,
+    id: 26,
+    name: 'Chicken Burger: Dynamite!',
+    price: 120,
     image: '/api/placeholder/200/200',
-    category: 'sailors-meals'
+    category: 'popular'
   },
   {
-    id: 6,
-    name: 'Sailor\'s Feast - 4pcs + Sides',
-    price: 218,
+    id: 27,
+    name: 'Chicken Burger: Dynamite Bbq!',
+    price: 130,
     image: '/api/placeholder/200/200',
-    category: 'sailors-meals'
+    category: 'popular'
   },
   {
-    id: 7,
-    name: 'Captain\'s Platter - 6pcs + Sides',
-    price: 298,
+    id: 28,
+    name: 'Fries in a Cup: Cheese',
+    price: 50,
     image: '/api/placeholder/200/200',
-    category: 'sailors-meals'
+    category: 'popular'
   },
   {
-    id: 8,
-    name: 'Viking Feast - 8pcs + Sides',
-    price: 388,
+    id: 29,
+    name: 'Fries in a Cup: Garlic Parmesan',
+    price: 60,
     image: '/api/placeholder/200/200',
-    category: 'vikings-meal'
-  },
-  {
-    id: 9,
-    name: 'Extra Rice',
-    price: 25,
-    image: '/api/placeholder/200/200',
-    category: 'extras'
-  },
-  {
-    id: 10,
-    name: 'Gravy',
-    price: 15,
-    image: '/api/placeholder/200/200',
-    category: 'extras'
-  },
-  {
-    id: 11,
-    name: 'Cola',
-    price: 35,
-    image: '/api/placeholder/200/200',
-    category: 'extras'
-  },
-  {
-    id: 12,
-    name: 'Iced Tea',
-    price: 35,
-    image: '/api/placeholder/200/200',
-    category: 'extras'
+    category: 'popular'
   }
 ];
 
@@ -400,6 +526,69 @@ function updateProfileDisplay() {
   }
 }
 
+// Function to handle checkout
+function proceedToCheckout() {
+  if (cart.length === 0) {
+    alert("Your cart is empty! Add items before proceeding to checkout.");
+    return;
+  }
+
+  // Retrieve existing order history from localStorage
+  const orderHistory = JSON.parse(localStorage.getItem('chicksAhoyOrderHistory')) || [];
+
+  // Create a new order
+  const newOrder = {
+    id: Date.now(), // Unique order ID
+    items: [...cart], // Copy of the current cart
+    total: cart.reduce((total, item) => total + item.price * item.quantity, 0) + 40, // Subtotal + delivery fee
+    date: new Date().toLocaleString() // Current date and time
+  };
+
+  // Add the new order to the order history
+  orderHistory.push(newOrder);
+
+  // Save the updated order history to localStorage
+  localStorage.setItem('chicksAhoyOrderHistory', JSON.stringify(orderHistory));
+
+  // Clear the cart
+  cart = [];
+  localStorage.setItem('chicksAhoyCart', JSON.stringify(cart));
+
+  // Redirect to Order Success page
+  window.location.href = 'order-success.html';
+}
+
+// Function to render order history
+function renderOrderHistory() {
+  const orderHistoryContainer = document.getElementById('order-history');
+  const orderHistory = JSON.parse(localStorage.getItem('chicksAhoyOrderHistory')) || [];
+
+  if (!orderHistoryContainer) return; // Not on order history page
+
+  if (orderHistory.length === 0) {
+    orderHistoryContainer.innerHTML = '<p>No orders found. Start ordering now!</p>';
+    return;
+  }
+
+  orderHistory.forEach(order => {
+    const orderElement = document.createElement('div');
+    orderElement.className = 'order';
+
+    orderElement.innerHTML = `
+      <h3>Order ID: ${order.id}</h3>
+      <p>Date: ${order.date}</p>
+      <ul>
+        ${order.items.map(item => `
+          <li>${item.quantity}x ${item.name} - ₱${(item.price * item.quantity).toFixed(2)}</li>
+        `).join('')}
+      </ul>
+      <p><strong>Total: ₱${order.total.toFixed(2)}</strong></p>
+    `;
+
+    orderHistoryContainer.appendChild(orderElement);
+  });
+}
+
 // Initialize page
 function init() {
   // Update cart count
@@ -484,3 +673,11 @@ function init() {
 
 // When document is loaded
 document.addEventListener('DOMContentLoaded', init);
+
+// Call renderOrderHistory if on the order history page
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.getElementById('order-history')) {
+    renderOrderHistory();
+  }
+});
+

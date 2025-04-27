@@ -10,39 +10,38 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-      <a href="index.html">CHICKS<span>Ahoy!</span></a>
+  <div class="logo">
+    <a href="index.html">
+      <img src="chicks-ahoy-logo.png" alt="Chicks Ahoy Logo" class="logo-image">
+    </a>
+  </div>
+  <div class="nav-container">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="icons">
+    <a href="cart.html" class="cart-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <span id="cart-count">0</span>
+    </a>
+    <div class="profile-icon" id="profile-icon">
+      <i class="fas fa-user"></i>
     </div>
-    <div class="nav-container">
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">HOME</a></li>
-          <li><a href="menu.html">MENU</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="icons">
-      <a href="cart.html" class="cart-icon">
-        <i class="fas fa-shopping-cart"></i>
-        <span id="cart-count">0</span>
-      </a>
-      <div class="profile-icon" id="profile-icon">
-        <i class="fas fa-user"></i>
-      </div>
-    </div>
-  </header>
+  </div>
+</header>
 
   <main>
     <div class="home-hero">
       <h1 class="home-title">CHICKS AHOY</h1>
       <h2 class="home-subtitle">The Newest & Tastiest Boneless<br>Chicken in town!</h2>
       
-      <div class="chicken-display">
-        <img src="/api/placeholder/200/200" alt="Original Flavor Chicken" class="chicken-cup">
-        <img src="/api/placeholder/200/200" alt="Spicy Flavor Chicken" class="chicken-cup">
-        <img src="/api/placeholder/200/200" alt="Garlic Flavor Chicken" class="chicken-cup">
-      </div>
+      <!-- Remove the container and keep only the image -->
+      <img src="chicken-bucket.png" alt="chikin bucket" class="chicken-cup">
       
       <a href="menu.html" class="view-menu-btn">View Menu</a>
     </div>
