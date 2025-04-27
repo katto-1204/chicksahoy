@@ -1,0 +1,134 @@
+<!-- about.html (About Us Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Chicks Ahoy!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">CHICKS<span>Ahoy!</span></a>
+    </div>
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="about.html" class="active">ABOUT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="icons">
+      <a href="cart.html" class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+      </a>
+      <div class="profile-icon" id="profile-icon">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="about-container">
+      <div class="about-image-container">
+        <div class="about-image">
+          <img src="/api/placeholder/400/300" alt="Chicks Ahoy Store">
+        </div>
+        <div class="about-image">
+          <img src="/api/placeholder/400/300" alt="Chicks Ahoy Location Map">
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <h2>Welcome to Chicks Ahoy!</h2>
+        <h3>Emilio Jacinto Street, Davao City</h3>
+        
+        <p>At Chicks Ahoy, we specialize in delivering the tastiest boneless fried chicken in Davao City. Located in the heart of the city, our mission is to provide flavorful, affordable meals that satisfy your cravings.</p>
+        
+        <p>Whether you're a student, a busy professional, or simply a chicken enthusiast, Chicks Ahoy is your go-to destination for delicious comfort food.</p>
+        
+        <div class="contact-section">
+          <h3>Contact Us!</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Login/Register Modal -->
+  <div id="auth-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login">Login</button>
+        <button class="auth-tab" data-tab="register">Register</button>
+      </div>
+      
+      <div id="login-form" class="auth-form active">
+        <h3>Login to Your Account</h3>
+        <form id="login-form-element">
+          <div class="form-group">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" required>
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" required>
+          </div>
+          <button type="submit" class="auth-button">Login</button>
+        </form>
+      </div>
+      
+      <div id="register-form" class="auth-form">
+        <h3>Create an Account</h3>
+        <form id="register-form-element">
+          <div class="form-group">
+            <label for="register-name">Full Name</label>
+            <input type="text" id="register-name" required>
+          </div>
+          <div class="form-group">
+            <label for="register-email">Email</label>
+            <input type="email" id="register-email" required>
+          </div>
+          <div class="form-group">
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" required>
+          </div>
+          <div class="form-group">
+            <label for="register-confirm-password">Confirm Password</label>
+            <input type="password" id="register-confirm-password" required>
+          </div>
+          <button type="submit" class="auth-button">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <div class="toast-content">
+      <i class="fas fa-check-circle"></i>
+      <div class="toast-message"></div>
+    </div>
+    <div class="toast-progress"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
