@@ -307,13 +307,15 @@ header {
     .about-content h2 {
       font-size: 36px;
       margin-bottom: 20px;
-      
+      font-family: 'Instrument Serif', serif;
     }
     
     .about-content h3 {
       font-size: 24px;
       margin-bottom: 15px;
       color: #666;
+      font-family: 'Instrument Serif', serif;
+      
     }
     
     .about-content p {
@@ -321,6 +323,7 @@ header {
       line-height: 1.6;
       margin-bottom: 20px;
       color: #0033cc;
+      font-family: 'Instrument Serif', serif;
     }
     
     .contact-section {
@@ -367,10 +370,11 @@ header {
     
     /* CART PAGE */
     .cart-container {
-      background-color: white;
+      background-color: #ffffff;
       border-radius: 15px;
       padding: 30px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 2px solid #0033cc;
     }
     
     .cart-container h2 {
@@ -924,5 +928,51 @@ header {
 }
 
 .go-to-menu-btn:hover, .view-order-history-btn:hover {
+  background-color: #FFD84D;
+}
+
+/* Order Success Container */
+.order-success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.order-success-container > div {
+  background-color: white;
+  border: 2px solid #0033cc; /* Blue border */
+  border-radius: 10px; /* Slightly rounded corners */
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px;
+  width: 100%;
+}
+
+.order-success-container h1 {
+  color: #0033cc;
+  margin-bottom: 20px;
+}
+
+.order-success-container p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-success-container a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #FEC200;
+  color: #0033cc;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.order-success-container a:hover {
   background-color: #FFD84D;
 }

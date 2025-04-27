@@ -18,50 +18,50 @@ const menuItems = [
   {
     id: 1,
     name: 'Ahoy! — Original',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '1.png',
     category: 'sailors-meals'
   },
   {
     id: 2,
     name: 'Konnichiwa! — Capt. Teriyaki',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 79,
+    image: '2.png',
     category: 'sailors-meals'
   },
   {
     id: 3,
     name: 'Annyeong! 🌶 — Yang Yeom',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '3.png',
     category: 'sailors-meals'
   },
   {
     id: 4,
     name: 'Hello! — Kentucky Gravy',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 89,
+    image: '4.png',
     category: 'sailors-meals'
   },
   {
     id: 5,
     name: 'Howdy! 🌶 — Texas Barbeque',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '5.png',
     category: 'sailors-meals'
   },
   {
     id: 6,
     name: 'Bonjour! — White Sauce',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '6.png',
     category: 'sailors-meals'
   },
   {
     id: 7,
     name: 'Ni Hao! — Salted Egg',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 110,
+    image: '7.png',
     category: 'sailors-meals'
   },
 
@@ -69,57 +69,29 @@ const menuItems = [
   {
     id: 8,
     name: 'Ahoy! — Original',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '8.png',
     category: 'vikings-meal'
   },
   {
     id: 9,
     name: 'Konnichiwa! — Capt. Teriyaki',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 99,
+    image: '9.png',
     category: 'vikings-meal'
   },
   {
     id: 10,
     name: 'Annyeong! 🌶 — Yang Yeom',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 89,
+    image: '10.png',
     category: 'vikings-meal'
   },
   {
     id: 11,
     name: 'Hello! — Kentucky Gravy',
-    price: 0,
-    image: '/api/placeholder/200/200',
-    category: 'vikings-meal'
-  },
-  {
-    id: 12,
-    name: 'Howdy! 🌶 — Texas Barbeque',
-    price: 0,
-    image: '/api/placeholder/200/200',
-    category: 'vikings-meal'
-  },
-  {
-    id: 13,
-    name: 'Bonjour! — White Sauce',
-    price: 0,
-    image: '/api/placeholder/200/200',
-    category: 'vikings-meal'
-  },
-  {
-    id: 14,
-    name: 'Ni Hao! — Salted Egg',
-    price: 0,
-    image: '/api/placeholder/200/200',
-    category: 'vikings-meal'
-  },
-  {
-    id: 15,
-    name: 'Witam! — Garlic Parmesan',
-    price: 0,
-    image: '/api/placeholder/200/200',
+    price: 89,
+    image: '11.png',
     category: 'vikings-meal'
   },
 
@@ -128,42 +100,42 @@ const menuItems = [
     id: 16,
     name: 'Chicken Burger: Dynamite! — with special garlic sauce',
     price: 120,
-    image: '/api/placeholder/200/200',
+    image: 'c.burger.png',
     category: 'extras'
   },
   {
     id: 17,
     name: 'Chicken Burger: Dynamite Bbq!',
     price: 130,
-    image: '/api/placeholder/200/200',
+    image: 'c.burger.png',
     category: 'extras'
   },
   {
     id: 18,
     name: 'Chicken Burger: Spicy Dynamite! 🌶🌶',
     price: 140,
-    image: '/api/placeholder/200/200',
+    image: 'c.burger.png',
     category: 'extras'
   },
   {
     id: 19,
     name: 'Fries in a Cup: Cheese',
     price: 50,
-    image: '/api/placeholder/200/200',
+    image: 'c.fries.png',
     category: 'extras'
   },
   {
     id: 20,
     name: 'Fries in a Cup: Garlic Parmesan',
     price: 60,
-    image: '/api/placeholder/200/200',
+    image: 'c.fries.png',
     category: 'extras'
   },
   {
     id: 21,
     name: 'Fries in a Cup: BBQ',
     price: 55,
-    image: '/api/placeholder/200/200',
+    image: 'c.fries.png',
     category: 'extras'
   },
 
@@ -172,56 +144,56 @@ const menuItems = [
     id: 22,
     name: '2 Pieces Boneless Chicken With Rice',
     price: 108,
-    image: '/api/placeholder/200/200',
+    image: '1.png',
     category: 'popular'
   },
   {
     id: 23,
     name: '3 Pieces Boneless Chicken With Rice',
     price: 148,
-    image: '/api/placeholder/200/200',
+    image: '2.png',
     category: 'popular'
   },
   {
     id: 24,
     name: '4 Pieces Boneless Chicken With Rice',
     price: 188,
-    image: '/api/placeholder/200/200',
+    image: '3.png',
     category: 'popular'
   },
   {
     id: 25,
     name: '5 Pieces Boneless Chicken With Rice',
     price: 228,
-    image: '/api/placeholder/200/200',
+    image: '4.png',
     category: 'popular'
   },
   {
     id: 26,
     name: 'Chicken Burger: Dynamite!',
     price: 120,
-    image: '/api/placeholder/200/200',
+    image: 'c.burger.png',
     category: 'popular'
   },
   {
     id: 27,
     name: 'Chicken Burger: Dynamite Bbq!',
     price: 130,
-    image: '/api/placeholder/200/200',
+    image: 'c.burger.png',
     category: 'popular'
   },
   {
     id: 28,
     name: 'Fries in a Cup: Cheese',
     price: 50,
-    image: '/api/placeholder/200/200',
+    image: 'c.fries.png',
     category: 'popular'
   },
   {
     id: 29,
     name: 'Fries in a Cup: Garlic Parmesan',
     price: 60,
-    image: '/api/placeholder/200/200',
+    image: 'c.fries.png',
     category: 'popular'
   }
 ];
